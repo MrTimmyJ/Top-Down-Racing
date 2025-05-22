@@ -8,7 +8,7 @@ Date: January 2021 to March 2021
 
 ## Overview
 
-This is a top-down 2D racing game built with Python and Pygame.
+&nbsp;&nbsp;&nbsp;&nbsp;This is a top-down 2D racing game built with Python and Pygame.
 Players control a custom car sprite and race against an AI.
 The AI's path is loaded dynamically through a text file (AI.txt), allowing for map modding and custom challenges.
 The objective is to pass through all rings (checkpoints) and beat the AI to the finish.
@@ -48,12 +48,21 @@ You control a car from a top-down view using arrow keys or WASD. Pass through ea
 ├── AIRacer.py &nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp; AI movement logic based on coordinates from AI.txt <br>
 ├── PowerUp.py &nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp; Checkpoint ring logic and victory condition <br>
 ├── States.py &nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp; State machine for game scenes <br>
-├── res/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Resources folder (sprites, backgrounds, AI.txt) <br>
-│   ├── Car_Up.png <br>
-│   ├── Car_Down.png <br>
-│   ├── track1.png <br>
-│   └── AI.txt <br>
 ├── highscore_list.txt &nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp; Saves top times <br>
+├── AI.txt &nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp; Custom AI Positional Coordinates <br>
+├── res/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Resources folder (sprites, backgrounds, AI.txt) <br>
+│   ├── Car_Down.png <br>
+│   ├── Car_Left.png <br>
+│   ├── Car_Right.png <br>
+│   ├── Car_Up.png <br>
+│   ├── Logo.png <br>
+│   ├── PowerUp.png <br>
+│   ├── Truck_Down.png <br>
+│   ├── Truck_Left.png <br>
+│   ├── Truck_Right.png <br>
+│   ├── Truck_Up.png <br>
+│   ├── track1.png <br>
+
 
 ⚙️ How It Works <br>
 Player Initialization
@@ -90,7 +99,7 @@ Timer and Scoring
 
 🧰 Technologies Used
 
-    🐍 Python 3.9
+    🐍 Python
 
     🎮 Pygame
 
@@ -102,20 +111,20 @@ Timer and Scoring
 
 🚀 Getting Started
 
-To run this project on your machine:
+    To run this project on your machine:
 
-1. Clone this repository
+    1. Clone this repository
 
-    git clone https://github.com/yourusername/top-down-racing.git
-    cd top-down-racing
+        git clone https://github.com/MrTimmyJ/top-down-racing.git
+        cd top-down-racing
 
-2. Install Pygame
+    2. Install Pygame
 
-   pip install pygame
+       pip install pygame
 
-3. Run the game
-
-   python Game.py
+    3. Run the game
+    
+       python Game.py
 
 📝 Make sure AI.txt and all image assets are in the correct /res/ folder or update the file paths in code.
 
@@ -135,5 +144,5 @@ To run this project on your machine:
 
 🪪 License
 
-This project is open source and available under the [MIT License](https://opensource.org/license/mit).
+This open-source project is available under the [MIT License](https://opensource.org/license/mit).
 
